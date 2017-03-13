@@ -1,0 +1,1 @@
+rsync -avr --exclude=deploy.sh  --exclude=web/index.php  --exclude=composer.json --exclude=composer.lock  --exclude=tests  --exclude=codeception.yml --exclude=yii --exclude='.svn*' --exclude='.svn/'  --exclude=runtime/*   --exclude=application/config/database.php  * work@101.37.20.104:/wwwroot/admin
